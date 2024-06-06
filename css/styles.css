@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.contenedor {
+  width: 100dvw;
+  height: 100dvh;
+  background-color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.contenedor .box {
+  width: 290px;
+  height: 200px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor .box:hover {
+  background-color: antiquewhite;
+  box-shadow: 0 0px 10px 5px rgb(255, 255, 255);
+}
+.contenedor .box .texto {
+  color: grey;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.contenedor .box .texto:hover {
+  color: black;
+}
+.contenedor .box .texto:hover::after {
+  content: " AMOR";
+  color: #F44336;
+}
+.contenedor .logica .texto {
+  color: grey;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.contenedor .logica .texto:hover {
+  color: black;
+}
+.contenedor .logica .texto:hover::after {
+  content: " GATO";
+  color: #F44336;
+}
+
+.gato-img {
+  background-color: aquamarine;
+}
+
+.perro-img {
+  background-color: aquamarine;
+}
+
+.leon-img {
+  background-color: aquamarine;
+}
+
+.btn--twitter {
+  width: 217.5px;
+  height: 75px;
+  background-color: #55acee;
+}
+.btn--twitter:hover {
+  box-shadow: 0 0px 10px 5px rgb(255, 255, 255);
+}
+.btn--twitter .texto {
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.btn--twitter .texto::after {
+  content: "twitter";
+  color: #000;
+}
+
+.btn--facebook {
+  width: 217.5px;
+  height: 75px;
+  background-color: #3a5795;
+}
+.btn--facebook:hover {
+  box-shadow: 0 0px 10px 5px rgb(255, 255, 255);
+}
+.btn--facebook .texto {
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.btn--facebook .texto::after {
+  content: "facebook";
+  color: #000;
+}
+
+.btn--send-mail {
+  width: 217.5px;
+  height: 75px;
+  background-color: #C25E30;
+}
+.btn--send-mail:hover {
+  box-shadow: 0 0px 10px 5px rgb(255, 255, 255);
+}
+.btn--send-mail .texto {
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.btn--send-mail .texto::after {
+  content: "send-mail";
+  color: #000;
+}
+
+/*# sourceMappingURL=styles.css.map */
